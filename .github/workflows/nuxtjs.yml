@@ -53,6 +53,8 @@ jobs:
           #
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: nuxt
+      - name: build with Nuxt
+        run: pnpm run build
       - name: Static HTML export with Nuxt
         run: pnpm run generate
       - name: Upload artifact
