@@ -4,9 +4,6 @@ export default defineNuxtConfig({
       ignore: ['/__pinceau_tokens_config.json', '/__pinceau_tokens_schema.json']
     }
   },
-  router: {
-    baseURL: '/decapcms-custom-oauth-front/' // baseURL: '/<repository>/'
-  },
   $production: {
     routeRules: {
       '/**': { isr: true }
