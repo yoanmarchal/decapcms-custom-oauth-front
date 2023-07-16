@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   },
   $production: {
     routeRules: {
-      '/**': { isr: true }
+      '/**': { ssr: true }
     }
   },
   // https://github.com/nuxt-themes/alpine
